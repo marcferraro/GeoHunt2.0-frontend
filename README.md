@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Geo Hunt 2.0 🔎 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the new and improved Geo Hunt 2.0! The original [Geo Hunt](https://github.com/abbiecoghlan/geo-hunt-frontend) was made as a Javascript SPWA with a Rails API backend. Geohunt 2.0
+is a new and improved version currently in progress. 
 
-## Available Scripts
 
-In the project directory, you can run:
+Geo Hunt 2.0 will be an interactive, location-based geography trivia game. Users will be given hints to guess a location and use the interactive map, provided by a Google Maps API, to guess and find the location. The application will also keep track of the users game stats through a dynamic leaderboard.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Planned Technology
+- React frontend 
+- useState, useContext, and useReducer hooks to manage state
+- Flask backend
+- Boostrap CSS
+- Google Maps API 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Planned Features
+- TBD  
 
-### `yarn test`
+<!-- ## ⚡️ Installation
+This app is working with Ruby 2.6.1, Rails 6.1.2, and Sqlite3 1.4.
+- Fork and clone this repository into your local environment.
+- Open a terminal and cd into the backend folder.
+- Run bundle install in your terminal.
+- Run rake db:migrate to migrate the database.
+- Run rake db:seed to seed the database.
+- Run rails s to run the backend of the program.
+- Open a second terminal and cd into the frontend folder.
+- Run open index.html to open the website. -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ## 🌍 Usage
+The user will be directed to a home page. There, the user is free to be directed to the Login, Leaderboard, and Puzzle pages via the navigation bar.
+- Login or Signup: Here the user can login or sign up to play the game. Once logged in, another option for profile will pop up in the navigation bar and the user will be able to click on the puzzle page.
+- Puzzles: This page displays all of the puzzles available to users. The user can click on a puzzle and be redirected to the puzzle page. If the user clicks on a puzzle before being logged in, they will be redirected to the login page.
+- Leaderboard: A page that displays the leaderboard for all the users of the game. The user can click on a user in the leaderboard and see their profile. 
+- Profile: Here the user is able to see their personal stats and information. When logged in, it will be listed as the current users username. The user can reset their personal stats here.
+- Puzzle: The puzzle page is where the game happens. When selecting a location, make sure to click when the five fingered hand appears. You will know you have selected a location when the popup appears. If you think you've found the correct location, press submit to find out if you're correct and win the game!  -->
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributors
+This project was created utilizing pair programing by the following collaborators: 
+- [Abbie Coghlan](https://github.com/abbiecoghlan)
+- [Marc Ferraro](https://github.com/marcferraro)
