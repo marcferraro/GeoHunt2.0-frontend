@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ProfileCard = () => {
+const ProfileCard = ({name}) => {
 
     return (
-        <h1>Hello, User!</h1>
+        <h1>Hello, {name}!</h1>
     )
 }
 
