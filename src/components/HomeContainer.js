@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import NewUserForm from './NewUserForm';
 import ProfileCard from './ProfileCard'
 
 
@@ -18,6 +19,7 @@ const HomeContainer = () => {
     return (
         <>
             <ProfileCard name={name}></ProfileCard>
+            <NewUserForm setName={setName}></NewUserForm>
         </>
     )
 }
