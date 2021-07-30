@@ -18,7 +18,7 @@ const NewUserForm = ({setName}) => {
         .then(resp => resp.json())
         .then(user => {
             console.log(user)
-            setName(user.name)
+            setName(user.username)
             setForm("")
         })
     }
